@@ -29,10 +29,28 @@ Aprende a utilizar el framework web Flask de Python para crear aplicaciones web 
 21. Despedida.
 
 
+## Entorno Virtual
+
+En este proyecto se utiliza un entorno virtual llamado `env` para gestionar las dependencias de Python. A continuación, se detallan los pasos para configurarlo y activarlo:
+
+1. **Crear el entorno virtual**:
+   ```bash
+   python -m venv env
+   ```
+
+2. **Activar el entorno virtual** (en terminal Bash en Windows):
+   ```bash
+   source ./env/Scripts/activate
+   ```
+
+3. **Instalar las dependencias necesarias**:
+   ```bash
+   pip install flask
+   ```
+
+
 Gracias a: 
 
 - **Oscar Alejandro Flavio García Fuentes**
   - [YouTube](https://www.youtube.com/watch?v=-1DmVCPB6H8)
-  - [GitHub](https://github.com/UskoKruM)
-
----
+  - [GitHub](https://github.com/UskoKruM)   

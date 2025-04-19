@@ -4,30 +4,24 @@ Aprende a utilizar el framework web Flask de Python para crear aplicaciones web 
 
 #python #flask #web
 
-**ÍNDICE**  :
+## Estructura del Proyecto
 
-1. Introducción
-2. Creación de entorno virtual
-3. Instalación de Flask
-4. Primera aplicación web
-5. Rutas y vistas
-6. Modo de depuración
-7. Respuesta HTML
-8. Plantillas (Templates)
-9. Contenido HTML dinámico
-10. Motor de plantillas Jinja2
-11. Iteración de listas
-12. Herencia de plantillas
-13. Archivos estáticos
-14. URLs dinámicas (parámetros)
-15. Query String
-16. 404 Not Found
-17. Redirecciones
-18. before_request, after_request
-19. Conexión a Postgrsql
-20. Respuesta JSON
-21. Despedida.
+El proyecto tiene la siguiente estructura de carpetas:
 
+```
+app/
+  app.py                # Archivo principal de la aplicación Flask
+  static/               # Archivos estáticos como CSS y JavaScript
+    css/
+      layout.css        # Estilos de la aplicación
+    js/
+      layout.js         # Funcionalidades JavaScript
+  templates/            # Plantillas HTML
+    index.html          # Página principal
+    layout.html         # Plantilla base
+env/                    # Entorno virtual para dependencias de Python
+README.md               # Documentación del proyecto
+```
 
 ## Entorno Virtual
 
@@ -48,9 +42,30 @@ En este proyecto se utiliza un entorno virtual llamado `env` para gestionar las 
    pip install flask
    ```
 
+## Archivos Clave
+
+- **app.py**: Archivo principal donde se configura y ejecuta la aplicación Flask.
+- **layout.js**: Archivo JavaScript para funcionalidades dinámicas.
+- **layout.css**: Archivo CSS para los estilos de la aplicación.
+- **index.html** y **layout.html**: Plantillas HTML para la interfaz de usuario.
+
+## Cómo Ejecutar el Proyecto
+
+1. Asegúrate de tener el entorno virtual activado.
+2. Ejecuta el archivo `app.py`:
+   ```bash
+   python app/app.py
+   ```
+3. Abre tu navegador y accede a `http://127.0.0.1:5000` para ver la aplicación en funcionamiento.
+
+---
+
+**Autor:** Milton Figueredo
 
 Gracias a: 
 
 - **Oscar Alejandro Flavio García Fuentes**
   - [YouTube](https://www.youtube.com/watch?v=-1DmVCPB6H8)
-  - [GitHub](https://github.com/UskoKruM)   
+  - [GitHub](https://github.com/UskoKruM)
+
+---

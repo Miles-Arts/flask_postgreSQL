@@ -11,6 +11,7 @@ def index():
             'bienvenida':'Hola Python 💻',
             'cursos': cursos,
             'numero_cursos':len(cursos)
+            #'numero_cursos':0
       }
       return render_template('index.html', data=data)
 

@@ -16,9 +16,9 @@
       <body>
            <h1>{{data.bienvenida}}</h1>
            <ul>
-                  {{% for curso in data.cursos   %}}
+                  {% for curso in data.cursos   %}
 
-                  <li>{{curso}}</li>
+                  <li>{{ curso }}</li>
 
                   {% endfor %} 
            </ul>

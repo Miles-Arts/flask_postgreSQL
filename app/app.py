@@ -9,7 +9,7 @@ def index():
       data={
             'titulo':'Index123 📚',
             'bienvenida':'Hola Python 💻',
-            'cursos': 'cursos',
+            'cursos': cursos,
             'numero_cursos':len(cursos)
       }
       return render_template('index.html', data=data)

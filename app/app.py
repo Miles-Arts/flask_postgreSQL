@@ -15,11 +15,12 @@ def index():
       }
       return render_template('index.html', data=data)
 
-@app.route('/contacto/<nombre>')
-def contacto(nombre):
+@app.route('/contacto/<nombre>/<int:edad>')
+def contacto(nombre,edad):
       data={
             'titulo': 'Contacto 📞',
-            'nombre': nombre      
+            'nombre': nombre,
+            'edad': edad      
       }
       return render_template('contacto.html',data=data)
 

@@ -58,6 +58,22 @@ En este proyecto se utiliza un entorno virtual llamado `env` para gestionar las 
    ```
 3. Abre tu navegador y accede a `http://127.0.0.1:5000` para ver la aplicación en funcionamiento.
 
+## Cerrar y Desactivar el Entorno Virtual
+
+Para desactivar el entorno virtual después de usarlo, simplemente ejecuta el siguiente comando:
+
+```bash
+deactivate
+```
+
+Esto cerrará la conexión al entorno virtual `env` y volverás al entorno global de Python.
+
+## Información Adicional
+
+- **Puerto de la Aplicación**: La aplicación Flask está configurada para ejecutarse en el puerto `5050`. Puedes cambiar este puerto en el archivo `app.py` si es necesario.
+- **Modo de Depuración**: El modo de depuración está activado (`debug=True`) para facilitar el desarrollo. Esto permite ver errores detallados en el navegador y recargar automáticamente la aplicación al realizar cambios en el código.
+- **Dependencias**: Actualmente, la única dependencia instalada es Flask. Si necesitas instalar más paquetes, asegúrate de hacerlo dentro del entorno virtual con `pip install nombre-paquete`.
+
 ---
 
 **Autor:** Milton Figueredo
